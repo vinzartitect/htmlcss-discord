@@ -136,6 +136,13 @@ a:hover {
     padding: 15px 30px;
 }
 
+.scarica-white::before {
+    content: "\21A7";
+    padding-right: 10px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
 
 
 
@@ -218,23 +225,78 @@ a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* sezione full */
 
 .fullview {
     width: 100%;
-    height: 90vh;
-    background-color: rgb(000, 126, 255);
+    height: 150vh;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
 }
+
+.fullview h2 {
+    color: black;
+    display: inline-block;
+    font-size: 56px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.fullview p {
+    color: black;
+    display: inline-block;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.fullview img {
+    width: 100%;
+}
+
+.luccichio {
+    background-image: url(../img/stars.svg);
+    width: 50%;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.fullview h3 {
+    color: black;
+    display: inline-block;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.fullview .scarica-blu {
+    background-color: #8ea1e1;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+}
+
+.scarica-blu::before {
+    content: "\21A7";
+    padding-right: 10px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     width: 100%;
