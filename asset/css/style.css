@@ -178,13 +178,57 @@ a:hover {
 
 
 
-
+/* sezione 1 con foto flottata */
 
 .fotofloat-2 {
     width: 100%;
     height: 90vh;
     background-color: rgb(175, 175, 175);
 }
+
+.fotofloat-2 img {
+    width: 65%;
+    margin-top: 130px;
+    float: right;
+}
+
+.testo-laterale {
+    width: 35%;
+    margin-top: 170px;
+    float: right;
+}
+
+.testo-laterale h2 {
+    color: black;
+    display: inline-block;
+    font-size: 56px;
+    padding-bottom: 30px;
+}
+
+.testo-laterale p {
+    color: black;
+    display: inline-block;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .fullview {
     width: 100%;
