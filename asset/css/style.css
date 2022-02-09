@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
 /* general */
@@ -15,7 +16,6 @@
 
 .button {
     border-radius: 40px;
-    padding: 10px 30px;
     text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ header {
 }
 
 .box-menu-p1 {
-    width: calc( 100% - 230px);
+    width: calc( 100% - 235px);
     float: left;
     text-align: center;
     display: inline-block;
@@ -61,6 +61,7 @@ header {
 
 .box-menu-p1 a {
     padding: 15px;
+    font-weight: bold;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
@@ -77,20 +78,70 @@ a:hover {
 .box-accedi .button {
     background-color: white;
     color: black;
+    padding: 10px 20px;
 }
 
 
 
 
+/* area centrale con foto e info */
 
-
-
+/* prima sezione con foto e info */
 
 .hero {
     width: 100%;
-    height: 90vh;
-    background-color: rgb(000, 126, 255);
+    height: 60vh;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    position: relative;
+    display: block;
 }
+
+.testo-centrale {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    text-align: center;
+}
+
+.testo-centrale h2 {
+    color: white;
+    display: inline-block;
+    font-size: 56px;
+    padding-bottom: 30px;
+}
+
+.testo-centrale p {
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.testo-centrale .scarica-white {
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+    padding: 15px 30px;
+}
+
+.testo-centrale .apri-grey {
+    background-color: #23272a;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    padding: 15px 30px;
+}
+
+
+
+
+
+
+
 
 .fotofloat-1 {
     width: 100%;
