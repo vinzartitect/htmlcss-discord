@@ -150,19 +150,19 @@ a:hover {
 
 .fotofloat-1 {
     width: 100%;
-    height: 90vh;
     background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
 }
 
 .fotofloat-1 img {
     width: 65%;
-    margin-top: 150px;
+    margin-top: 80px;
     float: left;
 }
 
 .testo-laterale {
     width: 35%;
-    margin-top: 190px;
+    margin-top: 130px;
     float: left;
 }
 
@@ -188,19 +188,20 @@ a:hover {
 
 .fotofloat-2 {
     width: 100%;
-    height: 90vh;
     background-color: rgb(216, 216, 216);
+    margin-bottom: 50px;
 }
 
 .fotofloat-2 img {
     width: 65%;
-    margin-top: 130px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     float: right;
 }
 
 .testo-laterale {
     width: 35%;
-    margin-top: 170px;
+    margin-top: 130px;
     float: right;
 }
 
@@ -228,9 +229,9 @@ a:hover {
 
 .fullview {
     width: 100%;
-    height: 150vh;
     background-color: rgb(255, 255, 255);
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .fullview h2 {
