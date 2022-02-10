@@ -7,7 +7,7 @@
     font-family: Arial, Helvetica, sans-serif ;
 }
 
-/* general */
+/* TODO general */
 
 .container {
     width: 70%;
@@ -22,7 +22,7 @@
 
 
 
-/* header con logo e menu */
+/* TODO header con logo e menu */
 
 header {
     background-color: #3161e0;
@@ -38,7 +38,6 @@ header {
 }
 
 .box-logo {
-    /* width: 20%; */
     float: left;
 }
 
@@ -48,7 +47,7 @@ header {
 
 .box-menu-p1 {
     width: calc( 100% - 235px);
-    float: left;
+    float:left;
     text-align: center;
     display: inline-block;
 }
@@ -259,7 +258,6 @@ a:hover {
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0%;
     padding: 15px;
     vertical-align: middle;
 }
@@ -291,12 +289,7 @@ a:hover {
 
 
 
-
-
-
-
-
-
+/* pie di pagina con altri menu */
 
 footer {
     width: 100%;
